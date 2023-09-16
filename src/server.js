@@ -22,7 +22,6 @@ import { getProductInfo } from './tools/index.js';
 import { OpenAI } from 'langchain/llms/openai';
 import { PineconeStore } from "langchain/vectorstores/pinecone";
 import { RetrievalQAChain } from 'langchain/chains';
-import { HNSWLib } from 'langchain/vectorstores/hnswlib';
 import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
 import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
 import { loadPrompt } from 'langchain/prompts/load';
