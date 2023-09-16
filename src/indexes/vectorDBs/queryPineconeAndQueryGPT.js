@@ -4,12 +4,7 @@ import { OpenAI } from "langchain/llms/openai";
 import { loadQAStuffChain } from "langchain/chains";
 import { Document } from "langchain/document";
 import { BufferMemory } from "langchain/memory";
-import { ChatOpenAI } from 'langchain/chat_models/openai';
 
-const model = new ChatOpenAI({
-  openAIApiKey: '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',
-  temperature: 0,
-});
 // 2. Export the queryPineconeVectorStoreAndQueryLLM function
 export const queryPineconeVectorStoreAndQueryLLM = async (
   client,
