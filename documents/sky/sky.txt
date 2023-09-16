@@ -1,0 +1,102 @@
+1 - Product Title: Gift Card 
+ Product Tags:  
+ Product Type:  
+ Product Description: This is a gift card for the store 
+ Product Variants: {"Variants: ":[{"id":46213869273409,"product_id":8550357041473,"title":"$10","price":"10.00","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"gift_card","inventory_management":null,"option1":"$10","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":false,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498139457,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":false,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869273409"},{"id":46213869306177,"product_id":8550357041473,"title":"$25","price":"25.00","sku":"","position":2,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"gift_card","inventory_management":null,"option1":"$25","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":false,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498172225,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":false,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869306177"},{"id":46213869338945,"product_id":8550357041473,"title":"$50","price":"50.00","sku":"","position":3,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"gift_card","inventory_management":null,"option1":"$50","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":false,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498204993,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":false,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869338945"},{"id":46213869371713,"product_id":8550357041473,"title":"$100","price":"100.00","sku":"","position":4,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"gift_card","inventory_management":null,"option1":"$100","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":false,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498237761,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":false,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869371713"}]} 
+ 
+2 - Product Title: Selling Plans Ski Wax 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869896001,"product_id":8550357434689,"title":"Selling Plans Ski Wax","price":"24.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Selling Plans Ski Wax","option2":null,"option3":null,"created_at":"2023-08-14T23:07:42-04:00","updated_at":"2023-08-14T23:07:42-04:00","taxable":true,"barcode":null,"grams":57,"image_id":42203129676097,"weight":2,"weight_unit":"oz","inventory_item_id":48256498729281,"inventory_quantity":10,"old_inventory_quantity":10,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869896001"},{"id":46213869928769,"product_id":8550357434689,"title":"Special Selling Plans Ski Wax","price":"49.95","sku":"","position":2,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Special Selling Plans Ski Wax","option2":null,"option3":null,"created_at":"2023-08-14T23:07:42-04:00","updated_at":"2023-08-14T23:07:42-04:00","taxable":true,"barcode":null,"grams":71,"image_id":42203129708865,"weight":2.5,"weight_unit":"oz","inventory_item_id":48256498762049,"inventory_quantity":10,"old_inventory_quantity":10,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869928769"},{"id":46213869961537,"product_id":8550357434689,"title":"Sample Selling Plans Ski Wax","price":"9.95","sku":"","position":3,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Sample Selling Plans Ski Wax","option2":null,"option3":null,"created_at":"2023-08-14T23:07:42-04:00","updated_at":"2023-08-14T23:07:42-04:00","taxable":true,"barcode":null,"grams":14,"image_id":42203129741633,"weight":0.5,"weight_unit":"oz","inventory_item_id":48256498794817,"inventory_quantity":10,"old_inventory_quantity":10,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869961537"}]} 
+ 
+3 - Product Title: The 3p Fulfilled Snowboard 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869797697,"product_id":8550357336385,"title":"Default Title","price":"2629.95","sku":"sku-hosted-1","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:41-04:00","updated_at":"2023-08-14T23:07:49-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498630977,"inventory_quantity":19,"old_inventory_quantity":19,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869797697"}]} 
+ 
+4 - Product Title: The Archived Snowboard 
+ Product Tags: Archived, Premium, Snow, Snowboard, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869207873,"product_id":8550356943169,"title":"Default Title","price":"629.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498041153,"inventory_quantity":50,"old_inventory_quantity":50,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869207873"}]} 
+ 
+5 - Product Title: The Collection Snowboard: Hydrogen 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869175105,"product_id":8550356975937,"title":"Default Title","price":"600.00","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498008385,"inventory_quantity":50,"old_inventory_quantity":50,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869175105"}]} 
+ 
+6 - Product Title: The Collection Snowboard: Liquid 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869994305,"product_id":8550357467457,"title":"Default Title","price":"749.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:42-04:00","updated_at":"2023-08-14T23:07:42-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498827585,"inventory_quantity":50,"old_inventory_quantity":50,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869994305"}]} 
+ 
+7 - Product Title: The Collection Snowboard: Oxygen 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869830465,"product_id":8550357369153,"title":"Default Title","price":"1025.00","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:41-04:00","updated_at":"2023-08-14T23:07:41-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498663745,"inventory_quantity":50,"old_inventory_quantity":50,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869830465"}]} 
+ 
+8 - Product Title: The Compare at Price Snowboard 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869666625,"product_id":8550357205313,"title":"Default Title","price":"785.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":"885.95","fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498499905,"inventory_quantity":10,"old_inventory_quantity":10,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869666625"}]} 
+ 
+9 - Product Title: The Complete Snowboard 
+ Product Tags: Premium, Snow, Snowboard, Sport, Winter 
+ Product Type: snowboard 
+ Product Description: This <b>PREMIUM</b> <i>snowboard</i> is so <b>SUPER</b><i>DUPER</i> awesome! 
+ Product Variants: {"Variants: ":[{"id":46213869470017,"product_id":8550357139777,"title":"Ice","price":"699.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Ice","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:46-04:00","taxable":true,"barcode":null,"grams":4536,"image_id":null,"weight":10,"weight_unit":"lb","inventory_item_id":48256498303297,"inventory_quantity":2,"old_inventory_quantity":2,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869470017"},{"id":46213869502785,"product_id":8550357139777,"title":"Dawn","price":"699.95","sku":"","position":2,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Dawn","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:45-04:00","taxable":true,"barcode":null,"grams":4536,"image_id":null,"weight":10,"weight_unit":"lb","inventory_item_id":48256498336065,"inventory_quantity":8,"old_inventory_quantity":8,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869502785"},{"id":46213869535553,"product_id":8550357139777,"title":"Powder","price":"699.95","sku":"","position":3,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Powder","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:49-04:00","taxable":true,"barcode":null,"grams":4536,"image_id":null,"weight":10,"weight_unit":"lb","inventory_item_id":48256498368833,"inventory_quantity":9,"old_inventory_quantity":9,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869535553"},{"id":46213869568321,"product_id":8550357139777,"title":"Electric","price":"699.95","sku":"","position":4,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Electric","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:46-04:00","taxable":true,"barcode":null,"grams":4536,"image_id":null,"weight":10,"weight_unit":"lb","inventory_item_id":48256498401601,"inventory_quantity":8,"old_inventory_quantity":8,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869568321"},{"id":46213869601089,"product_id":8550357139777,"title":"Sunset","price":"699.95","sku":"","position":5,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Sunset","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:46-04:00","taxable":true,"barcode":null,"grams":4536,"image_id":null,"weight":10,"weight_unit":"lb","inventory_item_id":48256498434369,"inventory_quantity":8,"old_inventory_quantity":8,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869601089"}]} 
+ 
+10 - Product Title: The Draft Snowboard 
+ Product Tags:  
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869142337,"product_id":8550356910401,"title":"Default Title","price":"2629.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256497975617,"inventory_quantity":20,"old_inventory_quantity":20,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869142337"}]} 
+ 
+11 - Product Title: The Hidden Snowboard 
+ Product Tags: Premium, Snow, Snowboard, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869240641,"product_id":8550357008705,"title":"Default Title","price":"749.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498073921,"inventory_quantity":50,"old_inventory_quantity":50,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869240641"}]} 
+ 
+12 - Product Title: The Inventory Not Tracked Snowboard 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869633857,"product_id":8550357172545,"title":"Default Title","price":"949.95","sku":"sku-untracked-1","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":null,"option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498467137,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869633857"}]} 
+ 
+13 - Product Title: The Minimal Snowboard 
+ Product Tags:  
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869076801,"product_id":8550356844865,"title":"Default Title","price":"885.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:39-04:00","updated_at":"2023-08-14T23:07:46-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256497910081,"inventory_quantity":39,"old_inventory_quantity":39,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869076801"}]} 
+ 
+14 - Product Title: The Multi-location Snowboard 
+ Product Tags: Premium, Snow, Snowboard, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869699393,"product_id":8550357238081,"title":"Default Title","price":"729.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:46-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498532673,"inventory_quantity":99,"old_inventory_quantity":99,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869699393"}]} 
+ 
+15 - Product Title: The Multi-managed Snowboard 
+ Product Tags: Premium, Snow, Snowboard, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869764929,"product_id":8550357303617,"title":"Default Title","price":"629.95","sku":"sku-managed-1","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:41-04:00","updated_at":"2023-08-14T23:07:41-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498598209,"inventory_quantity":100,"old_inventory_quantity":100,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869764929"}]} 
+ 
+16 - Product Title: The Out of Stock Snowboard 
+ Product Tags: Accessory, Sport, Winter 
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869437249,"product_id":8550357107009,"title":"Default Title","price":"885.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:40-04:00","updated_at":"2023-08-14T23:07:40-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256498270529,"inventory_quantity":0,"old_inventory_quantity":0,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869437249"}]} 
+ 
+17 - Product Title: The Videographer Snowboard 
+ Product Tags:  
+ Product Type:  
+ Product Description:  
+ Product Variants: {"Variants: ":[{"id":46213869109569,"product_id":8550356877633,"title":"Default Title","price":"885.95","sku":"","position":1,"inventory_policy":"deny","compare_at_price":null,"fulfillment_service":"manual","inventory_management":"shopify","option1":"Default Title","option2":null,"option3":null,"created_at":"2023-08-14T23:07:39-04:00","updated_at":"2023-08-14T23:07:39-04:00","taxable":true,"barcode":null,"grams":0,"image_id":null,"weight":0,"weight_unit":"lb","inventory_item_id":48256497942849,"inventory_quantity":50,"old_inventory_quantity":50,"requires_shipping":true,"admin_graphql_api_id":"gid:\/\/shopify\/ProductVariant\/46213869109569"}]} 
+ 
