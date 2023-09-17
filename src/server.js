@@ -35,7 +35,18 @@ import { fileURLToPath } from 'url'; // This is used to convert import.meta.url 
 import { ChainTool } from 'langchain/tools';
 
 dotenv.config();
+
+const express = require('express');
+const cors = require('cors');
 const app = express();
+
+// Allow requests from 'https://postnicu.com'
+app.use(cors({
+  origin: 'https://postnicu.com'
+}));
+
+// ... rest of your server setup
+
 app.use(express.json());
 
 
