@@ -38,7 +38,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 const corsOptions = {
-    origin: ['https://konvas.app/sky'], // specify the requesting origin
+    origin: ['https://postnicu.com'], // specify the requesting origin
     methods: ['GET', 'POST', 'PUT', 'DELETE'], // specify the allowed HTTP methods
     allowedHeaders: ['Content-Type', 'Authorization']
   };
