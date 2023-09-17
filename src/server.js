@@ -43,7 +43,7 @@ const PORT = process.env.PORT || 800;
 
 
 const model = new ChatOpenAI({
-    openAIApiKey: process.env.PINECONE_ENVIRONMENT,
+    openAIApiKey: process.env.OPENAI_API_KEY,
     temperature: 0,
   });
 const memory = new BufferMemory();
