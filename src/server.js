@@ -48,12 +48,6 @@ app.use(cors({
 app.use(express.json());
 
 
-app.use((req, res, next) => {
-  res.header('Access-Control-Allow-Origin', 'https://postnicu.com');
-  res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE, OPTIONS');
-  res.header('Access-Control-Allow-Headers', 'Content-Type, Authorization');
-  next();
-});
 
 // ... rest of your server setup
 
@@ -63,18 +57,7 @@ app.use(cors({ origin: 'https://postnicu.com' }));
 
 const PORT = process.env.PORT || 800;
 
-const forceJsonResponse = (req, res, next) => {
-    const acceptHeader = req.headers.accept;
-  
-    if (!acceptHeader || acceptHeader.includes('application/json')) {
-      // Set the response Content-Type to JSON
-      res.setHeader('Content-Type', 'application/json');
-      next();
-    } else {
-      res.status(406).send('Not Acceptable');
-    }
-  };
-  app.use(forceJsonResponse);  
+
 const model = new ChatOpenAI({
     openAIApiKey: process.env.OPENAI_API_KEY,
     temperature: 0,
