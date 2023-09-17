@@ -36,7 +36,6 @@ import { ChainTool } from 'langchain/tools';
 
 dotenv.config();
 
-const cors = require('cors');
 const app = express();
 
 // Allow requests from 'https://postnicu.com'
