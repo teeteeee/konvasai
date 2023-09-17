@@ -37,7 +37,14 @@ import { ChainTool } from 'langchain/tools';
 dotenv.config();
 const app = express();
 app.use(express.json());
-app.use(cors({ origin: 'https://konvas.app' }));
+const corsOptions = {
+    origin: ['https://konvas.app/sky'], // specify the requesting origin
+    methods: ['GET', 'POST', 'PUT', 'DELETE'], // specify the allowed HTTP methods
+    allowedHeaders: ['Content-Type', 'Authorization']
+  };
+  
+  app.use(cors(corsOptions));
+// app.use(cors({ origin: 'https://konvas.app' }));
 
 const PORT = process.env.PORT || 800;
 
