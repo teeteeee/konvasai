@@ -40,7 +40,7 @@ const app = express();
 
 // Allow requests from 'https://postnicu.com'
 app.use(cors({
-  origin: 'https://postnicu.com'
+  origin: 'https://konvas.app'
 }));
 
 // ... rest of your server setup
@@ -51,7 +51,7 @@ app.use(express.json());
 
 // ... rest of your server setup
 
-app.use(cors({ origin: 'https://postnicu.com' }));
+app.use(cors({ origin: 'https://konvas.app' }));
   
 // app.use(cors({ origin: 'https://konvas.app' }));
 
