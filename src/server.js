@@ -62,7 +62,7 @@ const PORT = process.env.PORT || 800;
 
 
 const model = new ChatOpenAI({
-    openAIApiKey: "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",
+    openAIApiKey: process.env.OPENAI_API_KEY,
     temperature: 0,
   });
 const memory = new BufferMemory();
@@ -77,8 +77,7 @@ inputVariables: ['userPrompt'],
 });
 
 const client = new Pinecone({ 
-    apiKey: "9617f755-9b13-47ee-8837-76c8f61f3c48",
-    // process.env.PINECONE_API_KEY,
+    apiKey: process.env.PINECONE_API_KEY, 
     environment: process.env.PINECONE_ENVIRONMENT
 })
 

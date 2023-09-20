@@ -30,7 +30,7 @@ export const queryPineconeVectorStoreAndQueryLLM = async (client, indexName, que
     console.log(`Asking question: ${question}...`);
 
     if (queryResponse.matches.length) {
-      const llm = new OpenAI({ openAIApiKey: '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',
+      const llm = new OpenAI({ openAIApiKey: process.env.OPENAI_API_KEY,
       temperature: 0,});
         const memory = new BufferMemory();
         const chain = loadQAStuffChain(llm);
@@ -71,7 +71,6 @@ export const queryPineconeVectorStoreAndQueryLLM = async (client, indexName, que
 
 //   if (queryResponse.matches.length) {
 // // 9. Create an OpenAI instance and load the QAStuffChain
-//     const llm = new OpenAI({ openAIApiKey: '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',
   // temperature: 0,});
 //     const memory = new BufferMemory();
 //     const chain = loadQAStuffChain(llm);

@@ -3,9 +3,8 @@ import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { RecursiveCharacterTextSplitter } from "langchain/text_splitter";
 import { Pinecone } from '@pinecone-database/pinecone';
 const client = new Pinecone({ 
-  apiKey: "9617f755-9b13-47ee-8837-76c8f61f3c48",
-  // process.env.PINECONE_API_KEY,
-  environment: "us-west1-gcp-free" 
+  apiKey: process.env.PINECONE_API_KEY, 
+  environment: process.env.PINECONE_ENVIRONMENT
 })
 
 // 2. Export updatePinecone function
