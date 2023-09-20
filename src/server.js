@@ -22,29 +22,15 @@ import {
  } from './tools/index.js';
 
 
-import { OpenAI } from 'langchain/llms/openai';
-import { PineconeStore } from "langchain/vectorstores/pinecone";
-import { RetrievalQAChain } from 'langchain/chains';
-import { OpenAIEmbeddings } from 'langchain/embeddings/openai';
-import { RecursiveCharacterTextSplitter } from 'langchain/text_splitter';
-import { loadPrompt } from 'langchain/prompts/load';
-import { HumanMessage, SystemMessage } from 'langchain/schema';
-import { DynamicTool } from 'langchain/tools';
-import { VectorDBQAChain } from 'langchain/chains';
-import { ConversationChain } from "langchain/chains";
-import * as fs from 'fs';
-import bodyParser from 'body-parser';
-import { fileURLToPath } from 'url'; // This is used to convert import.meta.url to a file path
-import { ChainTool } from 'langchain/tools';
-
 dotenv.config();
 
 const app = express();
 
 // Allow requests from 'https://postnicu.com'
 const corsOptions = {
-  origin: 'https://konvas.app',
+  origin: '*',
 };
+
 
 app.use(cors(corsOptions));
 
