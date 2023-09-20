@@ -16,7 +16,10 @@ import { queryPineconeVectorStoreAndQueryLLM } from './indexes/vectorDBs/queryPi
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { RequestsGetTool } from 'langchain/tools';
 import { buyerInfo } from './templates/index.js';
-import { getProductInfo } from './tools/index.js';
+import { 
+    getProductInfo,
+    // konvasQATool
+ } from './tools/index.js';
 
 
 import { OpenAI } from 'langchain/llms/openai';
@@ -59,12 +62,13 @@ const PORT = process.env.PORT || 800;
 
 
 const model = new ChatOpenAI({
-    openAIApiKey: process.env.OPENAI_API_KEY,
+    openAIApiKey: "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",
     temperature: 0,
   });
 const memory = new BufferMemory();
 const tools = [
     getProductInfo,
+    // konvasQATool,
   ];
 
 const promptTemplate = new PromptTemplate({
@@ -73,7 +77,8 @@ inputVariables: ['userPrompt'],
 });
 
 const client = new Pinecone({ 
-    apiKey: process.env.PINECONE_API_KEY,
+    apiKey: "9617f755-9b13-47ee-8837-76c8f61f3c48",
+    // process.env.PINECONE_API_KEY,
     environment: process.env.PINECONE_ENVIRONMENT
 })
 
@@ -85,7 +90,6 @@ const vectorDimension = 1536;
 
 app.post('/chat', async (req, res) => {
     const { question } = req.body;
-    console.log('questionnn', question);
     
     const formattedPromptValue = await promptTemplate.format({
       userPrompt: question,
@@ -104,8 +108,8 @@ app.post('/chat', async (req, res) => {
     //  console.log('tool result', result);
   
       const data = {
-        room: 'paddai room',
-        author: 'Padd AI',
+        room: 'konvasai room',
+        author: 'Konvas AI',
         question: result.output,
         isTyped: true,
         time: `${new Date(Date.now()).getHours()}:${new Date(

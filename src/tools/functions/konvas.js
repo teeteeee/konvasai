@@ -5,9 +5,14 @@ const client = new Pinecone({
     environment: 'us-west1-gcp-free'
 })
 
-const indexName = "sky-index";
+const indexName = "titi-index";
 
 export const getProductsDetails = async (question) => {
+  console.log('client', client);
+  
+  console.log('indexName', indexName);
+  
+  console.log('questionnn', question);
   const queryResponse = await queryPineconeVectorStoreAndQueryLLM(client, indexName, question);
   return queryResponse;    
 };
