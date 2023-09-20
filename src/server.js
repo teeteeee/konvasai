@@ -42,9 +42,11 @@ dotenv.config();
 const app = express();
 
 // Allow requests from 'https://postnicu.com'
-app.use(cors({
-  origin: 'https://konvas.app'
-}));
+const corsOptions = {
+  origin: 'https://konvas.app',
+};
+
+app.use(cors(corsOptions));
 
 // ... rest of your server setup
 
@@ -54,7 +56,7 @@ app.use(express.json());
 
 // ... rest of your server setup
 
-app.use(cors({ origin: 'https://konvas.app' }));
+// app.use(cors({ origin: 'https://konvas.app' }));
   
 // app.use(cors({ origin: 'https://konvas.app' }));
 
