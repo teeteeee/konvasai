@@ -3,7 +3,6 @@ import { ChainTool } from 'langchain/tools';
 import { VectorDBQAChain } from 'langchain/chains';
 import { ChatOpenAI } from 'langchain/chat_models/openai';
 import { getProductsDetails } from './functions/konvas.js';
-import { getVectorStore } from '../indexes/vectorDBs/supabase.js';
 
 import { DirectoryLoader } from "langchain/document_loaders/fs/directory";
 import { JSONLoader, JSONLinesLoader, } from "langchain/document_loaders/fs/json";
