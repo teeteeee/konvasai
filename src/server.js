@@ -76,6 +76,8 @@ const vectorDimension = 1536;
 
 
 app.post('/chat', async (req, res) => {
+  
+  console.log('Response Headers:', res.getHeaders());
     const { question } = req.body;
     
     const formattedPromptValue = await promptTemplate.format({
