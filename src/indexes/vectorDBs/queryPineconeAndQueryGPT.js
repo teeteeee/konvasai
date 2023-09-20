@@ -58,35 +58,3 @@ export const queryPineconeVectorStoreAndQueryLLM = async (client, indexName, que
   }
 };
 
-
-// 2. Export the queryPineconeVectorStoreAndQueryLLM function
-
-
-// 7. Log the number of matches 
-// console.log(`Found ${queryResponse.matches.length} matches...`);
-// // 8. Log the question  being asked
-//   console.log(`Asking question : ${question }...`);
-
-
-
-//   if (queryResponse.matches.length) {
-// // 9. Create an OpenAI instance and load the QAStuffChain
-  // temperature: 0,});
-//     const memory = new BufferMemory();
-//     const chain = loadQAStuffChain(llm);
-// // 10. Extract and concatenate page content from matched documents
-//     const concatenatedPageContent = queryResponse.matches
-//       .map((match) => match.metadata.pageContent)
-//       .join(" ");
-// // 11. Execute the chain with input documents and query 
-//     const result = await chain.call({
-//       input_documents: [new Document({ pageContent: concatenatedPageContent })],
-//       question : question ,
-//       memory: memory,
-//     });
-// // 12. Log the answer
-//     console.log(`Answer: ${result.text}`);
-//     return result.text; // Return the GPT-3 answer text
-//   } else {
-// // 13. Log that there are no matches, so GPT-3 will not be queried
-//     console.log("Since there are no matches, GPT-3 will not be queried.");
