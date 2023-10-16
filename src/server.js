@@ -87,26 +87,7 @@ app.post("/chat", async (req, res) => {
       maxIterations: 3,
       memory: memory,
     });
-    console.log("Loaded agent.");
-    console.log("hereeeee1")
-    // const input0 = "hi, i am titi";
-  
-    // const result0 = await executor.call({ input: input0 });
-  
-    // console.log(`Got output ${result0.output}`);
-  
-    // const input1 = "whats my name?";
-  
-    // const result1 = await executor.call({ input: input1 });
-  
-    // console.log(`Got output ${result1.output}`);
-  
-    // const input2 = "whats the weather in pomfret?";
-  
-    // const result2 = await executor.call({ input: input2 });
-  
-    // console.log(`Got output ${result2.output}`);
-    console.log("hereeeee")
+    
     const result = await executor.call({
       input: formattedPromptValue.toString(),
     });
