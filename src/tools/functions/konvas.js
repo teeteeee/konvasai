@@ -8,7 +8,7 @@ const client = new Pinecone({
 const indexName = "titi-index";
 
 export const getProductsDetails = async (question) => {
-  console.log('client', client);
+  // console.log('client', client);
   
   console.log('indexName', indexName);
   

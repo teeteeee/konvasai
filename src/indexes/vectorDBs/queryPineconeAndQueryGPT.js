@@ -2,8 +2,10 @@
 import { OpenAIEmbeddings } from "langchain/embeddings/openai";
 import { OpenAI } from "langchain/llms/openai";
 import { loadQAStuffChain } from "langchain/chains";
+
+import { ConversationChain } from "langchain/chains";
 import { Document } from "langchain/document";
-import { BufferMemory } from "langchain/memory";
+// import { BufferMemory } from "langchain/memory";
 
 
 
@@ -12,12 +14,14 @@ export const queryPineconeVectorStoreAndQueryLLM = async (client, indexName, que
     console.log("Querying Pinecone vector store...");
 
     const index = client.Index(indexName);
+    
+    console.log('indexName query:', indexName);
 
     console.log('Question:', question);
 
     const queryEmbedding = await (new OpenAIEmbeddings()).embedQuery(question);
 
-    console.log('Query embedding:', queryEmbedding);
+    // console.log('Query embedding:', queryEmbedding);
 
     const queryResponse = await index.query({
       topK: 10,
@@ -30,10 +34,19 @@ export const queryPineconeVectorStoreAndQueryLLM = async (client, indexName, que
     console.log(`Asking question: ${question}...`);
 
     if (queryResponse.matches.length) {
-      const llm = new OpenAI({ openAIApiKey: process.env.OPENAI_API_KEY,
-      temperature: 0,});
-        const memory = new BufferMemory();
-        const chain = loadQAStuffChain(llm);
+        
+      const model = new OpenAI({ 
+        openAIApiKey: process.env.OPENAI_API_KEY,
+        temperature: 0,
+      });
+      
+      // const memory = new BufferMemory();
+           
+        const chain = loadQAStuffChain(model);
+
+// const chain = new ConversationChain({ llm: model, memory: memory });
+        // const chain = ConversationChain(llm, memory);
+
     // 10. Extract and concatenate page content from matched documents
         const concatenatedPageContent = queryResponse.matches
           .map((match) => match.metadata.pageContent)
@@ -42,7 +55,6 @@ export const queryPineconeVectorStoreAndQueryLLM = async (client, indexName, que
         const result = await chain.call({
           input_documents: [new Document({ pageContent: concatenatedPageContent })],
           question : question ,
-          memory: memory,
         });
     // 12. Log the answer
         console.log(`Answer: ${result.text}`);
